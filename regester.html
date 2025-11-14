@@ -74,7 +74,7 @@
 
   <button class="btn" onclick="registerUser()">Register</button>
 
-  <div class="note">Already have an account? <a class="link" href="login.html">Sign in</a></div>
+  <div class="note">Already have an account? <a class="link" href="index.html">Sign in</a></div>
 </div>
 
 <script>
@@ -94,8 +94,9 @@ function registerUser() {
 
     localStorage.setItem("users", JSON.stringify(users));
     alert("Registered! Wait for Admin approval.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
 }
 </script>
 </body>
 </html>
+
